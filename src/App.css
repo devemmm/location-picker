@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background-color: rgb(225, 220, 220);
+  flex: 1;
+  height: 150px;
+  width: 40%;
+  display: list-item;
+  margin: auto;
+  margin-top: 150px;
+  padding-top: 150px;
+  border-radius: 20px;
+
 }
 
 .App-logo {
@@ -32,6 +42,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
